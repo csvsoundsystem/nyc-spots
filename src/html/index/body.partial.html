@@ -1,0 +1,11 @@
+  <div id="map"></div>
+  <ul id="legend">
+    <[ const spots = h.io.readDataSync('src/data/spots.csv') ]>
+    <[ const groups = h._.chain(spots).pluck('group').map(d => d.split('|')).flatten().uniq().each((d, i) => { ]>
+      <li data-group="<[= d ]>"><span class="group-<[= i ]>"></span></li>
+    <[ }) ]>
+  </ul>
+
+  <script src="js/thirdparty/leaflet.js"></script>
+  <script src="js/thirdparty/tile.stamen.v1.3.0.js"></script>
+  <script src="js/main.pkgd.js"></script>

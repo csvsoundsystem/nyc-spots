@@ -1,0 +1,15 @@
+{
+  "rootUrl": "https://csvsoundsystem.github.io",
+  "slug": "nyc-spots",
+  "title": "new york spots",
+  "seoTitle": "new york spots",
+  "fbTitle": "new york spots",
+  "seoDek": "Nice places to go in new york city (brooklyn)",
+  "fbDek": "Nice places to go in new york city (brooklyn)",
+  "seoKeywords": "",
+  "twText": "Nice places to go in new york city (brooklyn)",
+  "fbImg": "csv.png",
+  "twImg": "csv.png",
+  "twHandle": "@csvsoundsystem",
+  "storyCopy": "<[~ h.import('src/html/story-copy.aml') ]>"
+}
